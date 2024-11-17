@@ -30,7 +30,7 @@ public class Exampletable {
 		css.sendKeys(username);
 		
 		WebElement passw = driver.findElement(By.id("pass"));
-		passw.sendKeys(password132324);
+		passw.sendKeys(password1323241313r4565);
 		
 	    
 	}
