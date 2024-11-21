@@ -6,7 +6,7 @@
     <classes>
       <class name="Login.Logins">
         <methods>
-          <include name="logiin"/>
+          <include name="logiin" invocation-numbers="1"/>
         </methods>
       </class> <!-- Login.Logins -->
     </classes>
