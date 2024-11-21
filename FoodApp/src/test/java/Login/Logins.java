@@ -34,7 +34,8 @@ public class Logins {
      	expected =driver.getCurrentUrl();
      	Thread.sleep(5000);
      }
-     	@Test(priority = 1,dataProvider = "testdata")
+     	@Test(priority = 1)
+     	 @Parameters({"username", "Password"})
      public void logiin(String username,String Password) throws InterruptedException
      	{
      		this.username=username;
@@ -45,16 +46,6 @@ public class Logins {
     		Thread.sleep(3000);   		 
     		actual=driver.getCurrentUrl();	
     
-     	}
-     	 @DataProvider(name="testdata",indices = {0,1})
-         public Object[][] testdata(){
-         	
-         
-    			return new Object[][] {
-    				{"admin@gmail.com","123456"},
-    				{"anu@gmail.com","123"}
-    				
-         };
      	 }
          @Test(priority = 2)
      	public void checkLoginStatus() {
