@@ -55,7 +55,17 @@ public class Logins {
             	
                 System.out.println(username + " has successfully logged in.");
             }
-        }
+         }
+         @Test(priority = 3)
+        public void loginfailed() throws InterruptedException
+         {
+        	Thread.sleep(3000);
+         	driver.findElement(By.xpath("//button[.='OK']")).click();
+         	Thread.sleep(2000);
+         	driver.findElement(By.xpath("//input[@type='text']"));
+         }
+         
+        
 
      	
      
