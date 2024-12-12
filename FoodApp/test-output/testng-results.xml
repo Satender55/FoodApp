@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-26T22:07:11 IST" name="Suite" finished-at="2024-11-26T22:07:31 IST" duration-ms="20396">
+  <suite started-at="2024-12-12T20:20:15 IST" name="Suite" finished-at="2024-12-12T20:20:39 IST" duration-ms="24426">
     <groups>
     </groups>
-    <test started-at="2024-11-26T22:07:11 IST" name="Test" finished-at="2024-11-26T22:07:31 IST" duration-ms="20396">
+    <test started-at="2024-12-12T20:20:15 IST" name="Test" finished-at="2024-12-12T20:20:39 IST" duration-ms="24426">
       <class name="Login.Logins">
-        <test-method signature="setup(java.lang.String)[pri:0, instance:Login.Logins@7f0eb4b4]" started-at="2024-11-26T22:07:11 IST" name="setup" finished-at="2024-11-26T22:07:23 IST" duration-ms="11672" status="PASS">
+        <test-method signature="setup(java.lang.String)[pri:0, instance:Login.Logins@7f0eb4b4]" started-at="2024-12-12T20:20:15 IST" name="setup" finished-at="2024-12-12T20:20:31 IST" duration-ms="15609" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logiin(java.lang.String,java.lang.String)[pri:1, instance:Login.Logins@7f0eb4b4]" started-at="2024-11-26T22:07:23 IST" name="logiin" finished-at="2024-11-26T22:07:26 IST" duration-ms="3493" status="PASS">
+        <test-method signature="logiin(java.lang.String,java.lang.String)[pri:1, instance:Login.Logins@7f0eb4b4]" started-at="2024-12-12T20:20:31 IST" name="logiin" finished-at="2024-12-12T20:20:34 IST" duration-ms="3511" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,11 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logiin -->
-        <test-method signature="checkLoginStatus()[pri:2, instance:Login.Logins@7f0eb4b4]" started-at="2024-11-26T22:07:26 IST" name="checkLoginStatus" finished-at="2024-11-26T22:07:26 IST" duration-ms="2" status="PASS">
+        <test-method signature="checkLoginStatus()[pri:2, instance:Login.Logins@7f0eb4b4]" started-at="2024-12-12T20:20:34 IST" name="checkLoginStatus" finished-at="2024-12-12T20:20:34 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoginStatus -->
-        <test-method signature="loginfailed()[pri:3, instance:Login.Logins@7f0eb4b4]" started-at="2024-11-26T22:07:26 IST" name="loginfailed" finished-at="2024-11-26T22:07:31 IST" duration-ms="5168" status="PASS">
+        <test-method signature="loginfailed()[pri:3, instance:Login.Logins@7f0eb4b4]" started-at="2024-12-12T20:20:34 IST" name="loginfailed" finished-at="2024-12-12T20:20:39 IST" duration-ms="5212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginfailed -->
