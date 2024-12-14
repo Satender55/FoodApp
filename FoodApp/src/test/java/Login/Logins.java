@@ -3,6 +3,7 @@ package Login;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
@@ -63,7 +64,11 @@ public class Logins {
         	Thread.sleep(3000);
          	driver.findElement(By.xpath("//button[.='OK']")).click();
          	Thread.sleep(2000);
-         	driver.findElement(By.xpath("//input[@type='text']")).sendKeys(Keys.ENTER);
+         	WebElement txt = driver.findElement(By.xpath("//input[@type='text']"));
+         txt.sendKeys(Keys.CLEAR);
+         //	txt.clear();
+        // Thread.sleep(3000);
+         //driver.close();
          }
          
         

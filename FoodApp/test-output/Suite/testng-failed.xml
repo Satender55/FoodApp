@@ -3,10 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="admin@gmail.com"/>
+    <parameter name="Password" value="1223456"/>
     <classes>
       <class name="Login.Logins">
         <methods>
-          <include name="logiin"/>
+          <include name="loginfailed"/>
         </methods>
       </class> <!-- Login.Logins -->
     </classes>

@@ -5,7 +5,8 @@
     <classes>
       <class name="Login.Logins">
         <methods>
-          <include name="logiin" invocation-numbers="0 1"/>
+          <include name="logiin"/>
+          <include name="loginfailed"/>
           <include name="checkLoginStatus"/>
           <include name="setup"/>
         </methods>
